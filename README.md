@@ -1,5 +1,5 @@
 # AlGaN/GaN HEMT Device Design Using Sentaurus TCAD (SDE)
-
+![image](https://github.com/shreyasingh2302vl10/TCAD-SDE-Sentaurus-AlGaN-GaN-HEMT-Device-Design-/blob/3418fb682c855c5fa074996ebe4ef3282b01071a/Intro_Image.png)
 ## Overview
 
 High Electron Mobility Transistors (HEMTs) based on the AlGaN/GaN material system are widely used in modern power electronics due to their high breakdown voltage, high electron mobility, and low on-resistance. The formation of a Two-Dimensional Electron Gas (2DEG) at the AlGaN/GaN interface enables high-current operation and improved switching performance compared to conventional silicon-based devices.
