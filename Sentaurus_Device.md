@@ -1,4 +1,5 @@
 # CODE -SDE tool
+![image](https://github.com/shreyasingh2302vl10/TCAD-SDE-Sentaurus-AlGaN-GaN-HEMT-Device-Design-/blob/8501e00e55b03df3f40e89c9c9905a1923a50ec1/WhatsApp%20Image%202026-06-11%20at%201.20.13%20AM%20(1).jpeg)
 ```scheme
 ;===================================================================================
 ;                1. PARAMETERS (DIMENSIONS & THICKNESS)
