@@ -1,5 +1,5 @@
-# OPTIONS
-![image](https://github.com/shreyasingh2302vl10/TCAD-SDE-Sentaurus-AlGaN-GaN-HEMT-Device-Design-/blob/9a32b328c7a1c26cc21ee3d8119b43ec20a7be80/WhatsApp%20Image%202026-06-11%20at%201.20.13%20AM%20(1).jpeg)
+# OUTPUT
+![image](https://github.com/shreyasingh2302vl10/TCAD-SDE-Sentaurus-AlGaN-GaN-HEMT-Device-Design-/blob/94c3c718b4f59bc072f54ccda7f7dc3c5c9bfd2a/WhatsApp%20Image%202026-06-11%20at%2012.18.09%20AM.jpeg)
 # CODE -SDevice TOOL
 ```scheme
 * ==============================================================================
