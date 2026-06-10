@@ -1,3 +1,4 @@
+```scheme
 ;===================================================================================
 ;                1. PARAMETERS (DIMENSIONS & THICKNESS)
 ;===================================================================================
@@ -123,3 +124,4 @@
 ; Save boundary model for SWB GUI representation
 (sde:save-model "n@node@")
 (sde:build-mesh "n@node@")
+```
