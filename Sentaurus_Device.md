@@ -1,5 +1,6 @@
+# Structure From the Research Paper
+![image](https://github.com/shreyasingh2302vl10/TCAD-SDE-Sentaurus-AlGaN-GaN-HEMT-Device-Design-/blob/80f8984e9c0d2c9090b5ca1401e72bd1e723f8d5/WhatsApp%20Image%202026-06-03%20at%203.56.20%20PM%20(1).jpeg)
 # CODE -SDE tool
-![image](https://github.com/shreyasingh2302vl10/TCAD-SDE-Sentaurus-AlGaN-GaN-HEMT-Device-Design-/blob/8501e00e55b03df3f40e89c9c9905a1923a50ec1/WhatsApp%20Image%202026-06-11%20at%201.20.13%20AM%20(1).jpeg)
 ```scheme
 ;===================================================================================
 ;                1. PARAMETERS (DIMENSIONS & THICKNESS)
