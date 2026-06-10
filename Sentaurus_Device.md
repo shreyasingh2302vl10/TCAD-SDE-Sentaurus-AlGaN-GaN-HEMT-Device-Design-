@@ -128,3 +128,5 @@
 (sde:save-model "n@node@")
 (sde:build-mesh "n@node@")
 ```
+# STRUCTURE MADE ON SENTAURUS TOOL 
+![image](https://github.com/shreyasingh2302vl10/TCAD-SDE-Sentaurus-AlGaN-GaN-HEMT-Device-Design-/blob/a9dc02d0bad3015e0c6c33e7eff88a5b1cd753f1/Structure_Device.jpeg)
