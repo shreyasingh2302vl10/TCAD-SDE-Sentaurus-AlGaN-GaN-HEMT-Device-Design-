@@ -1,48 +1,95 @@
 # AlGaN/GaN HEMT Device Design Using Sentaurus TCAD (SDE)
 
-## Description
-Designed and developed an AlGaN/GaN HEMT device structure in Sentaurus TCAD (SDE), including geometry creation, material definition, contact engineering, doping profile implementation, and mesh generation for power electronic applications.
+## Overview
 
-## Implementation Workflow
+High Electron Mobility Transistors (HEMTs) based on the AlGaN/GaN material system are widely used in modern power electronics due to their high breakdown voltage, high electron mobility, and low on-resistance. The formation of a Two-Dimensional Electron Gas (2DEG) at the AlGaN/GaN interface enables high-current operation and improved switching performance compared to conventional silicon-based devices.
 
-### 1. Parameter Definition
-- Defined device dimensions and layer thicknesses.
-- Parameterized source, gate, drain, substrate, buffer, barrier, and p-GaN regions.
+This project focuses on the development of an AlGaN/GaN HEMT device structure using Synopsys Sentaurus TCAD. The complete device geometry is created through Scheme-based scripting in Sentaurus Structure Editor (SDE), providing a parameterized and scalable framework for semiconductor device design.
 
-### 2. Coordinate Generation
-- Generated scalable X-axis and Y-axis coordinates for device construction.
+---
 
-### 3. Structure Creation
-- Created:
-  - Silicon Substrate
-  - GaN Buffer Layer
-  - AlGaN Barrier Layer
-  - p-GaN Gate Region
-  - Source Region
-  - Drain Region
-  - Gate Metal Electrode
+## Device Structure
 
-### 4. Doping Assignment
-- Applied substrate background doping.
-- Assigned buffer doping.
-- Implemented Mg doping in the p-GaN region.
-- Defined heavily doped source and drain regions.
+The device consists of a Silicon substrate followed by a GaN buffer layer that supports the active region. An AlGaN barrier layer is introduced above the GaN buffer to induce the formation of the 2DEG channel at the heterojunction interface. A p-GaN gate structure is incorporated to realize enhancement-mode (normally-off) operation. Source and drain regions are formed on either side of the gate, while a metal gate electrode controls the channel conductivity.
 
-### 5. Contact Definition
-- Defined Source (S), Gate (G), and Drain (D) contacts.
-- Assigned contacts to corresponding device boundaries.
+| Parameter | Value |
+|-----------|-------|
+| Total Device Length | 16 µm |
+| Silicon Substrate Thickness | 2 µm |
+| GaN Buffer Thickness | 2 µm |
+| AlGaN Barrier Thickness | 20 nm |
+| p-GaN Layer Thickness | 100 nm |
+| Gate Length | 1.5 µm |
+| Gate-to-Source Spacing | 1.5 µm |
+| Gate-to-Drain Spacing | 7 µm |
+| Source Length | 3 µm |
+| Drain Length | 3 µm |
 
-### 6. Mesh Refinement
-- Applied localized mesh refinement in critical regions:
-  - GaN Buffer
-  - AlGaN Barrier
-  - Gate Region
+---
 
-### 7. Model Generation
-- Generated the final device structure.
-- Built the mesh and exported the model for further TCAD studies.
+## Design Methodology
+
+The device structure is generated using a fully parameterized scripting approach in Sentaurus SDE.
+
+### Geometry Definition
+- Definition of device dimensions and layer thicknesses.
+- Coordinate generation for scalable device construction.
+- Creation of substrate, buffer, barrier, source, drain, and gate regions.
+
+### Material Assignment
+- Silicon substrate.
+- Gallium Nitride (GaN) buffer and active regions.
+- Aluminum Gallium Nitride (AlGaN) barrier layer.
+- Aluminum gate metal.
+
+### Doping Profiles
+- Background substrate doping.
+- GaN buffer doping.
+- Magnesium-doped p-GaN gate region.
+- Heavily doped source and drain regions for ohmic contact formation.
+
+### Contact Engineering
+- Source contact definition.
+- Gate contact definition.
+- Drain contact definition.
+
+### Mesh Generation
+- Localized mesh refinement in critical regions.
+- Enhanced resolution near the barrier and gate regions.
+
+---
+
+## Features
+
+- Fully parameterized device structure
+- Scheme-based Sentaurus SDE scripting
+- AlGaN/GaN heterostructure implementation
+- p-GaN gate architecture
+- Contact assignment and doping specification
+- Automated mesh generation
+- Easily scalable geometry for future device optimization
+
+---
 
 ## Tools Used
+
 - Synopsys Sentaurus TCAD
 - Sentaurus Structure Editor (SDE)
-- Scheme-Based Scripting
+- Scheme Scripting Language
+
+---
+
+## Repository Contents
+
+| File | Description |
+|--------|-------------|
+| `HEMT.cmd` | Sentaurus SDE script for device structure generation |
+| `README.md` | Project documentation |
+
+---
+
+## Author
+
+**Shreya Singh**  
+Dual Degree (B.Tech ECE + M.Tech VLSI)  
+Indian Institute of Technology Patna
