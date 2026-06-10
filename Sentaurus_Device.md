@@ -1,5 +1,34 @@
 # Structure From the Research Paper
 ![image](https://github.com/shreyasingh2302vl10/TCAD-SDE-Sentaurus-AlGaN-GaN-HEMT-Device-Design-/blob/80f8984e9c0d2c9090b5ca1401e72bd1e723f8d5/WhatsApp%20Image%202026-06-03%20at%203.56.20%20PM%20(1).jpeg)
+## X-axis Dimensions
+
+| Parameter | Value |
+|------------|---------|
+| Source Length (LS) | 3 µm |
+| Gate-to-Source Spacing (LGS) | 1.5 µm |
+| Gate Length (LG) | 1.5 µm |
+| Gate-to-Drain Spacing (LGD) | 7 µm |
+| Drain Length (LD) | 3 µm |
+| Silicon Substrate Thickness | 2 µm |
+| GaN Buffer Thickness | 2 µm |
+| AlGaN Barrier Thickness | 20 nm |
+| p-GaN Thickness | 100 nm |
+| Gate Metal Thickness | 50 nm |
+
+## Y-axis Dimensions
+
+| Parameter | Value |
+|-----------|-------|
+| Total Device Length | 16 µm |
+| Silicon Substrate Thickness | 2 µm |
+| GaN Buffer Thickness | 2 µm |
+| AlGaN Barrier Thickness | 20 nm |
+| p-GaN Layer Thickness | 100 nm |
+| Gate Length | 1.5 µm |
+| Gate-to-Source Spacing | 1.5 µm |
+| Gate-to-Drain Spacing | 7 µm |
+| Source Length | 3 µm |
+| Drain Length | 3 µm |
 # CODE -SDE tool
 ```scheme
 ;===================================================================================
