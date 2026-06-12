@@ -1,5 +1,5 @@
 # OUTPUT- Id vs Vg
-![image](https://github.com/shreyasingh2302vl10/TCAD-SDE-Sentaurus-AlGaN-GaN-HEMT-Device-Design-/blob/00b3b4dc8aabc114010edbf2db62279afcb0a62c/id_vg_correct.png)
+![image](https://github.com/shreyasingh2302vl10/TCAD-SDE-Sentaurus-AlGaN-GaN-HEMT-Device-Design-/blob/4fdf96a7d8cd659dd535899cc5347aaafd4ee541/Id_Vg_3plots.png)
 # CODE -SDevice TOOL id_vg
 ```scheme
 
